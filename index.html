@@ -9,7 +9,20 @@
     <div id="root"></div>
 <iframe name="myframe" id="frame1" src="mydetail.asp"></iframe>
 <form action="../mydetail.asp" method="post" target="myframe">
-<input type="submit" name="DoIt" value="DoIt">
+<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Enter your name: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-example">
+    <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="form-example">
+    <input type="submit" value="Subscribe!">
+  </div>
+</form>
+
 </form>    
     <script src="src/index.jsx"></script>
   </body>
