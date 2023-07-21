@@ -7,7 +7,10 @@
   </head>
   <body>
     <div id="root"></div>
-
+<iframe name="myframe" id="frame1" src="mydetail.asp"></iframe>
+<form action="../mydetail.asp" method="post" target="myframe">
+<input type="submit" name="DoIt" value="DoIt">
+</form>    
     <script src="src/index.jsx"></script>
   </body>
 </html>
